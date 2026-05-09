@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mvnw.cmd spring-boot:run:*)",
+      "Bash(cmd.exe /c \"mvnw.cmd spring-boot:run\")",
+      "Bash(curl:*)",
+      "Bash(java -version:*)",
+      "Bash(where:*)",
+      "Bash(cmd //c mvnw.cmd spring-boot:run:*)",
+      "Bash(cmd //c \"cd /d C:\\\\Users\\\\speri\\\\Desktop\\\\e-commerce-api\\\\backend && mvnw.cmd spring-boot:run\")",
+      "Bash(cmd //c \"cd /d C:\\\\Users\\\\speri\\\\Desktop\\\\e-commerce-api\\\\backend && .\\\\mvnw.cmd spring-boot:run\")",
+      "Bash(ls:*)",
+      "Bash(java:*)",
+      "Bash(chmod:*)",
+      "Bash(./mvnw:*)",
+      "Bash(.mvnw.cmd spring-boot:run:*)",
+      "Bash(bash mvnw spring-boot:run:*)",
+      "Bash(cmd.exe /c \"cd /d C:\\\\Users\\\\speri\\\\Desktop\\\\e-commerce-api\\\\backend && mvnw.cmd spring-boot:run\")",
+      "Bash(cmd.exe /c \"cd /d C:\\\\Users\\\\speri\\\\Desktop\\\\e-commerce-api\\\\backend && dir mvnw*\")",
+      "Bash(taskkill:*)",
+      "Bash(pkill:*)",
+      "Bash(netstat:*)",
+      "Bash(dir:*)",
+      "Bash(timeout:*)",
+      "Bash(cmd /c \"cd /d C:\\\\Users\\\\speri\\\\Desktop\\\\e-commerce-api\\\\backend && mvnw.cmd spring-boot:run\")",
+      "Bash(cmd /c \"cd /d C:\\\\Users\\\\speri\\\\Desktop\\\\e-commerce-api\\\\backend && .\\\\mvnw.cmd spring-boot:run\")",
+      "Bash(powershell -Command \"Set-Location ''C:\\\\Users\\\\speri\\\\Desktop\\\\e-commerce-api\\\\backend''; & ''.\\\\mvnw.cmd'' spring-boot:run\")",
+      "Bash(powershell -Command:*)",
+      "Bash(powershell:*)"
+    ]
+  }
+}
